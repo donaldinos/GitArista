@@ -1,0 +1,22 @@
+GitArista
+=========
+
+GitArista is simple git announcer for IRC Net with only basic functionality:  
+- It can monitoring only one local git repository. 
+- automaticly track of changes in you monitored git repository and show these changes in your defined irc channel
+- also know one user command "last". So when GitArtist will be already connected to you 
+irc channel try you type this: "gitarista: last"
+
+Quick install:
+1. Instal NodeJS + irc module
+2. get git_announcer_auto.js from github
+3. edit this script and update your custom settings
+4. create new empty file in same directory: touch git_irc.log
+5. to run: $ /usr/local/bin/node git_announcer_auto.js    
+6. enjoy :)
+
+I know, that there is big potentional for make improvements of my code, but on another site, there is no time :)
+It was primarly created for personal use, but i know, that the situation with usable git announcer for irc is poor,
+therefore, I also decided to public this my git announcer.
+
+Daniel Kacer
